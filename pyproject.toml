@@ -1,0 +1,13 @@
+[project]
+name = "infra-health-report"
+version = "0.1.0"
+description = "Turns VM/container resource metrics into an actionable capacity report, with simple trend-based projections."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
